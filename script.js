@@ -17,7 +17,7 @@ function hasilkan() {
       break;
 
     case 4:
-      return hasil.innerHTML + a / b;
+      return hasil.innerHTML = a / b;
       break;
   }
 }

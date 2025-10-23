@@ -1,7 +1,10 @@
 .container {
-    background-color: rgb(18, 19, 19);
+    background-color: rgb(23, 2, 31);
     padding: 20px;
     width: 50%;
+    align-items: center;
+    justify-items: center;
+    background-image: url();
     
 }
 body {
@@ -10,13 +13,15 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("https://img.freepik.com/free-vector/gradient-numerology-background_23-2150051046.jpg");
-
-
-
+    background-size: 100cm;
 }
 .text {
-    color: aqua;
+    color: rgb(160, 72, 135);
 }
 .container h1 {
-    color: blue;
+    color: rgb(139, 44, 148);
+    text-align: center;
+    
 }
+
+
