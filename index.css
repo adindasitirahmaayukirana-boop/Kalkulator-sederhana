@@ -1,0 +1,22 @@
+.container {
+    background-color: rgb(18, 19, 19);
+    padding: 20px;
+    width: 50%;
+    
+}
+body {
+    display: flex;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-vector/gradient-numerology-background_23-2150051046.jpg");
+
+
+
+}
+.text {
+    color: aqua;
+}
+.container h1 {
+    color: blue;
+}

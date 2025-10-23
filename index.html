@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <h1>KALKULATOR</h1>
+    <div class="container">
+    <div class="col">
+        <h1>KALKULATOR</h1>
     <input type="number" placeholder="masukan angka pertama" id="number1">
     <select name="" id="select">
         <option value="1">+</option>
@@ -16,8 +19,11 @@
     </select>
     <input type="number" placeholder="masukan angka kedua" id="number2">
     <button onclick="hasilkan()">=</button>
-    <h1 id="hasil">hasil
-    </h1>
+    </div>
+    <div class="col">
+         <h1 id="hasil" class="text">hasil</h1>
+</div>
+  
     
     <script src="./script.js"></script>
     
